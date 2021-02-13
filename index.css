@@ -37,11 +37,11 @@ html, body {
 }
 
 #top, #bottom {
-  height: 10vh;
   width: 100%;
 }
 
 #bottom {
+  margin-bottom: 3%;
   text-align: left;
   vertical-align: bottom;
 }
