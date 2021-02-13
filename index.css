@@ -41,6 +41,7 @@ html, body {
 }
 
 #bottom {
+  flex-grow: 2;
   margin-bottom: 3%;
   text-align: left;
   vertical-align: bottom;
