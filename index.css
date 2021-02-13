@@ -34,7 +34,7 @@ html, body {
 
 #lettercrap {
   width: 70%;
-  margin-left: -35%;
+  margin-left: calc(-37.5%);
 }
 
 #top, #bottom {
