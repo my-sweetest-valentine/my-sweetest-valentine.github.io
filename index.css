@@ -17,6 +17,7 @@ html, body {
 
 #top {
   margin-top: 10%;
+  margin-bottom: 5%;
   text-align: right;
 }
 
@@ -33,7 +34,7 @@ html, body {
 
 #lettercrap {
   width: 70%;
-  margin-left: -40%;
+  margin-left: -35%;
 }
 
 #top, #bottom {
