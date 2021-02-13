@@ -2,41 +2,39 @@
 <html lang="">
 <head>
   <meta charset='utf-8'/>
-  <title>My sweetest valentine</title>
+  <title>My sweetest valentine Alina</title>
   <link rel='stylesheet' href='index.css'/>
   <link rel='stylesheet' href='lettercrap.css'/>
   <meta name="description" content="Dynamic ascii-art valentine."/>
   <script src='lettercrap.js'></script>
 </head>
 <body>
-<div id='main'>
+<div id='root'>
   <div id='top'>
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-      For my sweet and lovely valentine Alina.
-    </div>
+    <text>
+      For my sweet and lovely Alina.
+    </text>
   </div>
   <div id='middle'>
     <div id='lettercrap'
          data-letter-crap='heart.png'
          data-lettercrap-aspect-ratio='0.5'
          data-lettercrap-letters='01'
-         data-lettercrap-words='sweet and lovely valentine Alina.'>
+         data-lettercrap-words='Alina.'>
+    </div>
+    <div id="code">
+      <pre>
+        <code>
+        let myValentine = 'Alina';
+        while (myValentine === 'Alina') {
+          myHeart.isWorking();
+        }
+      </code>
+      </pre>
     </div>
   </div>
   <div id='bottom'>
-    <div>
-      <a id='github'>With ❤️ from gleb-hleb</a>
-
-    </div>
-    <div>
-    </div>
-    <div id='byline'>
-
-    </div>
+    <text id='github'>Made with ❤️ from gleb-hleb.</text>
   </div>
 </div>
 </body>

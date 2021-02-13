@@ -4,66 +4,57 @@ html, body {
   background-color: black;
   color: #e21f5e;
   font-family: Consolas, sans-serif;
-  /*#FFF270*/
+  font-size: 29px;
 }
-#main {
+
+#root {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   height: 100%;
   width: 100%;
 }
-#middle {
-  flex-grow: 1;
-}
-#top, #bottom {
-  height: 16vh;
-  width: 100%;
-}
-#top > div:first-child, #bottom > div:first-child {
-  text-align: left;
-}
-#top > div:last-child, #bottom > div:last-child {
+
+#top {
+  margin-top: 10%;
   text-align: right;
 }
-#main > div {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+
+#top > text {
+  margin-right: 5%;
 }
+
 #middle {
+  width: 100%;
+  flex-grow: 1;
+  justify-content: center;
+  overflow: hidden;
+}
 
-}
-#bottom > div, #top > div {
-  padding: 10px;
-  width: 32%;
-  box-sizing: border-box;
-}
 #lettercrap {
-  width: 80%;
-  margin: auto;
+  width: 70%;
+  margin-left: -30%;
   color: #e21f5e;
-}
-
-a {
-  color: inherit;
 }
 
 #top, #bottom {
-  font-weight: 200;
+  height: 10vh;
+  width: 100%;
 }
 
-#github {
-  color: #e21f5e;
-  text-decoration: none;
-  display: inline-block;
-  padding: 11px 15px;
-  background-color: black;
+#bottom {
+  text-align: left;
 }
-#byline {
-  transform: translate(-40px) rotate(90deg);
-  transform-origin: 100% 100%;
+
+#bottom text {
+  margin-left: 5%;
 }
+
+#code {
+  width: 100%;
+  text-align: left;
+  margin-top: 60%;
+  margin-left: 10%;
+}
+
+
