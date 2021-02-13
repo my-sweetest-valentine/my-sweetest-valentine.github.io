@@ -33,7 +33,7 @@ html, body {
 
 #lettercrap {
   width: 70%;
-  margin-left: 37%;
+  margin-left: -37%;
 }
 
 #top, #bottom {
