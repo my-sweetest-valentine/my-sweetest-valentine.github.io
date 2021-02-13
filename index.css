@@ -28,13 +28,12 @@ html, body {
 
 #middle {
   width: 100%;
-  flex-grow: 1;
   overflow: hidden;
 }
 
 #lettercrap {
   width: 70%;
-  margin-left: calc(-37.5%);
+  margin-left: 37%;
 }
 
 #top, #bottom {
